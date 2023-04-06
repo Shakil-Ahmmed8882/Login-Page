@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6{
    .signup_wrapper{
       max-width: 70rem;
       width: 100%;
-      min-width: 250px;
+      min-width: 300px;
       margin: 3rem auto;
 }
 img{
@@ -144,13 +144,13 @@ input[type="submit"]{
 }
 .alt_icon{
       display: flex;
-      gap: 1rem;
       justify-content: center;
 }
 .alt_icon img{
       all: unset;
       width: 1.4rem;
       transition: .4s;
+      margin: 1rem .6rem;
 }
 .alt_icon img:hover{
       transform: scale(1.1);
@@ -194,23 +194,5 @@ input[type="submit"]{
       z-index:1;
 }
 
-/* ==========Breakpoints========== */
-@media only screen and (max-width:864px){
-      input[type="submit"]{         
-            background-color: hsl(196, 100%, 50%);
-            width: 6rem;
-            height:2rem;
-            margin: 2rem 0;
-      }
-      .fa-arrow-right-long{
-            top:2.6rem;
-      }
-}
-@media only screen and (max-width:500px){
-      h1{
-            font-size: clamp(1.6em,4vw,3rem);
-      }
-      input[type="submit"]{
-            margin: 2rem 0;
-      }
-}
+
+

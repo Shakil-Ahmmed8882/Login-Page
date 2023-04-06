@@ -1,0 +1,33 @@
+/* ==========Breakpoints========== */
+@media only screen and (max-width:864px){
+      input[type="submit"]{         
+            background-color: hsl(196, 100%, 50%);
+            width: 6rem;
+            height:2rem;
+            margin: 2rem 0;
+      }
+      .fa-arrow-right-long{
+            top:2.6rem;
+      }
+}
+
+@media only screen and (max-width:500px){
+      h1{
+            font-size: clamp(1.6em,4vw,3rem);
+      }
+      input[type="submit"]{
+            margin: 2rem 0;
+      }
+
+      input[type="submit"]{  
+            display: block;       
+            width: 330px;
+            height:3rem;
+            margin:3rem 0 1rem 0;
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.381);
+      }
+      .fa-arrow-right-long{
+            display: none;
+      }
+}
+
